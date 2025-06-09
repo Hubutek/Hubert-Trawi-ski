@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.3)
+project(untitled21)
+
+set(CMAKE_CXX_STANDARD 14)
+
+add_executable(untitled21 main.cpp Figure.cpp Figure.h Rectangle.cpp Rectangle.h Square.cpp Square.h Circle.cpp Circle.h)
